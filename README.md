@@ -20,13 +20,17 @@ install dependencies:
 pip install -r requirements.txt
 ```
 
-Then run the model, 
+Now Run all the blocks in ipynb `MIMIC_LLM_setup.ipynb`
+
+This should successfully create train and validation sets.
+
+Then run the model, which used the data to check the accuracy.
 
 ``` bash
 python3 models/slt_model.py
 ```
 
-Once the model ran successfully, you can test the model by running quick_test
+Once the model ran successfully, you can test the model by running quick_test. This is going to use pretrained model above.
 
 ``` bash
 python3 quick_test.py
