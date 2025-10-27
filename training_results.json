@@ -1,0 +1,40 @@
+{
+  "model_name": "emilyalsentzer/Bio_ClinicalBERT",
+  "device": "mps",
+  "num_classes": 16,
+  "classes": [
+    "bladder",
+    "blood vessels",
+    "bones",
+    "brain",
+    "ears",
+    "eyes",
+    "heart",
+    "intestines",
+    "kidney",
+    "liver",
+    "muscles",
+    "nerves",
+    "pancreas",
+    "skin",
+    "stomach",
+    "throat"
+  ],
+  "train_samples": 10000,
+  "val_samples": 2000,
+  "training_time_minutes": 8.556201386451722,
+  "eval_metrics": {
+    "eval_loss": 0.4733927249908447,
+    "eval_accuracy": 0.828,
+    "eval_precision": 0.8349612256124658,
+    "eval_recall": 0.828,
+    "eval_f1": 0.826988283366974,
+    "eval_runtime": 15.1746,
+    "eval_samples_per_second": 131.799,
+    "eval_steps_per_second": 8.237,
+    "epoch": 2.0
+  },
+  "e2e_accuracy": 0.85,
+  "e2e_correct": 170,
+  "e2e_total": 200
+}
